@@ -10,11 +10,16 @@
 
 </head>
 <body>
+
     @include('partials.header')
 
-    @include('partials.main')
+    <main>
+        @yield('main-content')
+    </main>
+   
 
     @include('partials.footer')
+
     
 </body>
 </html>
